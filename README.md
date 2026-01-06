@@ -34,27 +34,49 @@ All entities are connected through a fully relational schema with enforced refer
 
 asana-rl-seed-data/
 ├── src/
+|
 │ ├── main.py # Entry point for data generation
+|
 │ ├── generators/ # Entity-specific data generators
+|
 │ │ ├── organizations.py
+|
 │ │ ├── teams.py
+|
 │ │ ├── users.py
+|
 │ │ ├── team_memberships.py
+|
 │ │ ├── projects.py
+|
 │ │ ├── sections.py
+|
 │ │ ├── tasks.py
+|
 │ │ ├── comments.py
+|
 │ │ ├── custom_fields.py
+|
 │ │ └── tags.py
+|
 │ ├── utils/ # Shared utilities
+|
 │ │ ├── db.py
+|
 │ │ ├── dates.py
+|
 │ │ └── random_utils.py
+|
 ├── prompts/ # LLM prompt templates (optional)
+|
 ├── output/ # Generated SQLite database (local only)
+|
 ├── schema.sql # SQLite schema (DDL)
+|
 ├── requirements.txt # Python dependencies
+|
 ├── .env.example # Example environment variables
+|
 └── README.md
 
 
