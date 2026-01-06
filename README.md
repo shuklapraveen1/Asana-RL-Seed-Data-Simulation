@@ -39,6 +39,7 @@ asana-rl-seed-data/
 │ │ ├── organizations.py
 │ │ ├── teams.py
 │ │ ├── users.py
+│ │ ├── team_memberships.py
 │ │ ├── projects.py
 │ │ ├── sections.py
 │ │ ├── tasks.py
@@ -49,12 +50,13 @@ asana-rl-seed-data/
 │ │ ├── db.py
 │ │ ├── dates.py
 │ │ └── random_utils.py
-├── prompts/ # LLM prompt templates
-├── output/ # Generated SQLite database
+├── prompts/ # LLM prompt templates (optional)
+├── output/ # Generated SQLite database (local only)
 ├── schema.sql # SQLite schema (DDL)
 ├── requirements.txt # Python dependencies
 ├── .env.example # Example environment variables
 └── README.md
+
 
 ---
 
