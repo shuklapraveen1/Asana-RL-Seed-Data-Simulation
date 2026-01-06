@@ -84,7 +84,7 @@ asana-rl-seed-data/
 
 ## Setup Instructions
 
-### 1. (Optional) Create a Virtual Environment
+### 1. Create a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
