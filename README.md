@@ -56,9 +56,6 @@ asana-rl-seed-data/
 ├── .env.example # Example environment variables
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## Setup Instructions
