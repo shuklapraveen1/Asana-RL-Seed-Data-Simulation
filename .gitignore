@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# OS files
+.DS_Store
+
+# Editor settings
+.vscode/
+
+output/*.sqlite
+
